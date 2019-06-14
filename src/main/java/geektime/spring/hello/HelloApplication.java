@@ -16,6 +16,6 @@ public class HelloApplication {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello Spring \n";
+        return "Hello Spring for version 2\n";
     }
 }
